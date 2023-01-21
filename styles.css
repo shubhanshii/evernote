@@ -1,0 +1,267 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     width: 100%; 
+      padding: 2rem 3.5rem;  
+    z-index: 999;
+    position:fixed;
+    background-color: rgb(250, 246, 246);
+    box-shadow: 10px;
+    /* margin-bottom: 5rem; */
+}
+.nav-items{
+display: flex;
+justify-content:center;
+list-style:none;
+}
+.nav-items li{
+    /* padding-: 10px; */
+    padding-left: 1.3rem;
+    font-weight: bold;
+}
+/* nav:hover{
+    box-shadow: 10px  10px 20px gray;
+} */
+.nav-items li:hover{
+    color: green;
+    cursor: pointer;
+    
+}
+.more-items{
+    display: flex;
+     list-style: none;
+     align-items: center;
+}
+.more-items li{ 
+    padding-left: 1.5rem;
+    font-weight: bold;
+    padding-right: 1.5rem;
+}
+ .more-items li:hover{
+    color: green;
+    cursor: pointer;
+} 
+.hero img{
+    width: 10rem;
+     /* height: 15rem;  */
+    /* padding-left: 10rem;  */
+}
+.btn{
+     padding: 10px 35px; 
+    border: 2px solid green;
+    color: green;
+    background-color: white;
+    font-weight: bold;
+}
+.content h1{
+    font-size: 56px;
+    text-align: center;
+   padding-top: 10rem;
+   padding-bottom: 25px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.landing{
+    /* margin-top: 5rem; */
+    height: 50vh;
+}
+.content p{
+    font-size: 25px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+.sign-up{
+    font-weight: bold;
+    background-color: rgb(3, 162, 3);
+    border: 2px solid rgb(3, 162, 3);
+    color: white;
+    padding: 1rem 5rem;
+    font-family: "Soleil",Helvetica,Arial,sans-serif;
+    text-align: center; 
+    justify-content: center;
+      margin-top: 1rem;
+    margin-left: 40rem;   
+    margin-bottom: 2rem; 
+    font-size: 16px;
+}
+.sign-up:hover{
+    filter: brightness(120%)
+}
+ .card-1{
+    display: flex;
+} 
+.picture1 img{
+     height: auto ;
+    width: 65rem;
+    padding-left: 10rem;
+    padding-top: 5rem;
+}
+.des-card1 h3{
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 3px;
+    font-size: 20px;
+}
+.des-card1 p{
+    padding-right: 10rem;
+    font-size: 18px;
+    padding-left: 2rem;
+}
+.des-card1{
+    padding-top: 7rem;
+}
+.text{
+    text-align: center;
+}
+.text h1{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 40px;
+}
+.text p{
+     padding-top: 2px; 
+    padding-bottom: 15px;
+    font-size:25px ;
+}
+.image2 img{
+height:35rem;
+width: auto;
+/* justify-content: center; */
+ padding-left: 16rem; 
+}
+.text-2{
+    background-color: rgb(236, 236, 233);
+     margin-top: 3rem; 
+     
+}
+ .text-2 .comma img{
+     display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    width: auto; 
+    padding-top: 2rem;
+    
+ }
+.text-2 p{
+ text-align: center;
+  padding: 2rem 15rem;  
+font-size: 25px;
+
+}
+.card-2{
+    display: flex;
+     justify-content: center; 
+     padding: 5rem 10rem;
+}
+.card2-des{
+    padding-right: 10rem;
+}
+.card2-des h1{
+    font-size: 36px;
+    margin: 10px 0px ;
+}
+.card2-des p{
+    font-size: 22px;
+}
+.image-4 img{
+    height: 25rem;
+    width: auto;
+}
+.card2-des span:hover{
+color:rgb(1, 228, 1) ;
+cursor: pointer;
+}
+.card-3{
+    display: flex;
+    justify-content: center;
+    padding: 5rem 10rem;
+}
+.card3-des{
+    padding-left: 10rem;
+}
+.card3-des h1{
+    font-size: 36px;
+    margin: 10px 0px ;
+}
+.card3-des p{
+    font-size: 22px;
+}
+.image-6 img{
+    height: 23rem;
+    width: auto;
+}
+.card3-des span:hover{
+color:rgb(1, 228, 1) ;
+cursor: pointer;
+}
+.card3-icon img{
+    padding-left: 10rem;
+}
+.card4-des{
+    padding-right: 10rem;
+}
+.card4-des h1{
+    font-size: 36px;
+    margin: 10px 0px ;
+}
+.card4-des p{
+    font-size: 22px;
+}
+.image-8 img{
+    height: 23rem;
+    width: auto;
+}
+.card4-des span:hover{
+color:rgb(1, 228, 1) ;
+cursor: pointer;
+}
+.card5-des{
+    padding-left: 10rem;
+}
+.card5-des h1{
+    font-size: 36px;
+    margin: 10px 0px ;
+}
+.card5-des p{
+    font-size: 22px;
+}
+.image-10 img{
+    height: 23rem;
+    width: auto;
+}
+.card5-des span:hover{
+color:rgb(1, 228, 1) ;
+cursor: pointer;
+}
+.card5-icon img{
+    padding-left: 10rem;
+}
+.brand{
+    display: flex;
+    background-color: rgb(236, 236, 233); 
+    list-style: none;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    
+}
+.brand li img{
+    height: 2rem;
+    width: auto;
+}
+.brand li img:hover{
+    cursor: pointer;
+}
